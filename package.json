@@ -1,0 +1,24 @@
+{
+  "name": "testfirst",
+  "version": "1.0.0",
+  "description": "my first test for nodejs ",
+  "main": "index.js",
+  "scripts": {
+    "start": "set DEBUG=testfirst & nodemon app.js",
+    "debug": "set DEBUG=* & nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "uzair",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "debug": "^4.3.5",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "mongodb": "^6.8.0",
+    "nodemon": "^3.1.4"
+  },
+  "nodemonConfig": {
+    "restartable": "rs"
+  }
+}
